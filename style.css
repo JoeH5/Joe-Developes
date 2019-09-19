@@ -67,6 +67,7 @@ a:link
     text-transform: uppercase;
     text-rendering: optimizeLegibility;
     font-weight: 100;
+    color: rgb(224, 224, 224);
     text-decoration: none;
 }
 
@@ -76,7 +77,7 @@ a:visited
     font-weight: 100;
     text-rendering: optimizeLegibility;
     text-decoration: none;
-    color: rgb(224, 224, 224)
+    color: rgb(224, 224, 224);
 }
 
 a:hover, a:focus
@@ -91,7 +92,7 @@ a:active
 {
     text-decoration: none;
     text-rendering: optimizeLegibility;
-    opacity: 5%;
+    color: rgb(224, 224, 224);
 }
 
 .mainlogo a {
