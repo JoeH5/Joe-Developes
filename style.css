@@ -33,21 +33,22 @@ header {
 header .logo a { 
     background-image: url(images/Logov3.png);
     background-size: 170px;
+    box-align: center;
+    box-sizing: border-box;
+    border: 1.6px solid rgb(224, 224, 224);
+    border-radius: 0px;
+
     background-repeat: no-repeat;
     background-position: left;
+    padding-left: 170px;
     font-size: 0px;
     display: inline-block;
-    line-height: 1em;
-    height: 230px;
-    text-align: left;
+    height: 80px;
     position: absolute;
-    max-width: 150px;
-    max-height: 80px;
-    overflow: hidden;
+    max-width: 160px;
     text-indent: -9999999999px;
     top: 20px;
     left: 50px;
-    width: 300px;
 
 }
 
