@@ -31,21 +31,21 @@ header {
 }
 
 header .logo a { 
-    background-image: url(images/Logo.png);
+    background-image: url(images/Logov3.png);
     background-size: 170px;
     background-repeat: no-repeat;
     background-position: left;
     font-size: 0px;
     display: inline-block;
     line-height: 1em;
-    height: 200px;
+    height: 230px;
     text-align: left;
     position: absolute;
     max-width: 150px;
-    max-height: 60px;
+    max-height: 80px;
     overflow: hidden;
     text-indent: -9999999999px;
-    top: 25px;
+    top: 20px;
     left: 50px;
     width: 300px;
 
@@ -61,7 +61,7 @@ header.loginPage {
 }
 
 header .loginPage.logo { 
-    background-image: url(images/Logo.png);
+    background-image: url(images/Logov3.png);
     background-size: 170px;
     background-repeat: no-repeat;
     background-position: left;
