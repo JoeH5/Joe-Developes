@@ -193,6 +193,11 @@ body .mybutton {
     right: 0;
 }
 
+nav.icons {
+    text-align: center;
+    padding-top: 250px;
+}
+
 /* Header Links */
 a:link
 {
