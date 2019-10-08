@@ -25,21 +25,21 @@
                 <h3>Contact Me</h3>
                 
                 <fieldset>
-                        <input type="text" name="name" maxlength="30"><span>Enter Name</span>
+                        <input type="text" id="text" name="name" maxlength="30" required><span>Enter Name</span>
                 </fieldset>
                 <fieldset>
-                        <input type="email" name="email" maxlength="65"><span>Enter Email</span>
+                        <input type="email" id ="email" name="email" maxlength="65" required><span>Enter Email</span>
                 </fieldset>
                 <fieldset>
-                        <textarea name="message" onkeyup="adjust_textarea(this)"></textarea><span>Enter Your Message</span>
+                        <textarea name="message" id="message" onkeyup="adjust_textarea(this)" required></textarea><span>Enter Your Message</span>
                 </fieldset>
                 <fieldset>
-                    <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>    
+                    <button name="submit" type="submit" id="contact-submit" data-submit="...Sending" value="Register">Submit</button>    
                 </fieldset>
                         
                 </ul>
             </form>
-            <h4 id ="optional">Alternatively you may contact me directly at: joseph.daunis53@gmail.com</h4>
+            <h4>Alternatively you may contact me directly at: joseph.daunis53@gmail.com</h4>
         </div>
 
         <nav class = "icons">

@@ -279,6 +279,11 @@ body .mybutton {
     font-family: 'Roboto';
 }
 
+.form input[type="text"]:valid, .form input[type="email"]:valid, .form textarea:valid {
+    border-color: green;
+    border-style: solid;
+    border-width: 2px;
+}
 
 #contact {
     background: transparent;
@@ -301,7 +306,6 @@ body .mybutton {
     font-size: 17px;
     font-family: 'Roboto';
     font-weight: 200;
-    
 }
 
 #contact #contact-submit {
