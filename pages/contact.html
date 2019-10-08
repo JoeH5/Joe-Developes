@@ -18,12 +18,33 @@
                 </ul>
             </nav>
         </header>
-
+        <script src="../contact.js"></script>
+        <div class ="form">
+            <form id = "contact" action="https://formspree.io/mdqgwkex" method="POST">
+                <ul>
+                <h3>Contact Me</h3>
+                
+                <fieldset>
+                        <input type="text" name="name" maxlength="30"><span>Enter Name</span>
+                </fieldset>
+                <fieldset>
+                        <input type="email" name="email" maxlength="65"><span>Enter Email</span>
+                </fieldset>
+                <fieldset>
+                        <textarea name="message" onkeyup="adjust_textarea(this)"></textarea><span>Enter Your Message</span>
+                </fieldset>
+                <fieldset>
+                    <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>    
+                </fieldset>
+                </ul>
+            </form>
+        </div>
 
         <nav class = "icons">
             <body>
                 <a target ="_blank" href="https://github.com/JoeH5/"><img src="../images/favicon-github.png"></a>
-                <a target ="_blank" href="https://github.com/JoeH5/"><img src="../images/favicon-linkedin.png"></a>
+                <a target ="_blank" href="https://www.linkedin.com/in/joseph-daunis-9287b2194/"><img src="../images/favicon-linkedin.png"></a>
+                <a target ="_blank" href="../images/daunisResume.pdf" download><img src="../images/favicon-resume.png"></a>
             </body>
         </nav>
         

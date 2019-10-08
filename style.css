@@ -193,10 +193,140 @@ body .mybutton {
     right: 0;
 }
 
+/* Contact Form CSS */
+
+.form {
+    max-width:400px;
+    margin: 50px auto;
+    box-sizing: border-box !important;
+    border: .8px solid!important;
+    border-color: black;
+    background: rgba(0, 0, 0, 0.082);
+	border-radius: 25px;
+	padding:20px;
+	font: 'Roboto';
+}
+
+.form h3 {
+    display: block;
+	text-align: center;
+	padding: 0;
+	margin: 0px 0px 20px 0px;
+	color: #5C5C5C;
+	font-size:x-large;
+}
+
+.form ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.form fieldset {
+    display: block;
+    padding: 7px;
+    border: .6px solid #DDDDDD;
+    margin-bottom: 30px;
+    border-radius: 3px;
+}
+
+.form fieldset:last-child {
+    border: none;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.form fieldset > label {
+    display: block;
+    float: left;
+    margin-top: -19px;
+    background: transparent;
+    height: 14px;
+    padding: 2px 5px 2px 5px;
+    color: rgb(224, 224, 224);
+    font-weight: 100;
+    font-size: 15px;
+    overflow: hidden;
+    font-family: 'Roboto';
+}
+
+.form fieldset > span {
+    background: transparent;
+    display: block;
+    padding: 3px;
+    margin: 0 -9px -9px -9px;
+    text-align: center;
+    color: #c0c0c0;
+    font-family: 'Roboto';
+    font-size: 12px;
+}
+
+.form textarea {
+    resize: none;
+}
+
+.form input[type="text"], .form input[type="email"], .form textarea, .form select {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 100%;
+    display: block;
+    outline: none;
+    height: 25px;
+    line-height: 25px;
+    font-size: 16px;
+    padding: 0;
+    font-family: 'Roboto';
+}
+
+
+#contact {
+    background: transparent;
+    padding: 25px;
+    margin: 50px 0;
+}
+
+#contact h3 {
+    font-family: 'Roboto';
+    text-transform: uppercase;
+    color: rgb(224, 224, 224);
+    display: block;
+    font-size: 30px;
+    font-weight: 200;
+    text-align: center;
+}
+
+#contact #contact-submit {
+    display:inline-block;
+    padding:0.46em 1.6em;
+    border:0.1em solid rgb(224, 224, 224);
+    margin:0 0.2em 0.2em 0;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    text-decoration:none;
+    font-family:'Roboto';
+    font-weight:300;
+    color:rgb(224, 224, 224);
+    text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+    background-color:transparent;
+    text-align:center;
+    transition: all 0.15s;
+}
+
+#contact #contact-submit:hover {
+    text-shadow: 0 0 2em rgb(175, 68, 68);
+    color:rgb(175, 68, 68);
+    border-color:rgb(175, 68, 68);
+
+}
+
 nav.icons {
     text-align: center;
-    padding-top: 250px;
+    padding-top: 0;
 }
+
+
 
 /* Header Links */
 a:link
