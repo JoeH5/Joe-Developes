@@ -7,6 +7,17 @@
 /* Smooth Scrolling */
 html {
     scroll-behavior: smooth;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.contact {
+    height: 100%;
+    overflow: hidden;
+}
+
+.contact footer {
+    bottom: 0%;
 }
 
 /* General Body */
@@ -53,7 +64,6 @@ header .logo a {
 div #infoHeader {
     font-family: 'Roboto';
     font-size: 35px;
-    text-align: center;
     padding-top: 400px;
     font-weight: 500;
 }
@@ -61,15 +71,10 @@ div #infoHeader {
 div #info {
     font-family: 'Roboto';
     font-size: 22px;
-    text-align: center;
+    border: 2px solid;
+    padding: 10px;
+    display: inline-flex;
     font-weight: 100;
-    margin: 25px 250px;
-
-    width: 70%;
-    padding: 12px 20px;
-    box-sizing: border-box;
-    border: 2px solid #ccc;
-    border-radius: 4px;
 }
 
 nav ul {
@@ -145,19 +150,12 @@ body .mybutton {
 }
 
 /* Back To Top Button */
-.backButton {
-    text-align: center;
-    margin: auto;
-}
-
-.topButton {
+div .topButton {
     font-family: 'Roboto';
     font-weight: 100;
     background-color: rgb(175, 68, 68);
     border: none;
-    
-    padding: 0px;
-    text-align: center;
+    margin: 0 auto;
     border-radius: 18px;
     text-decoration: none;
     font-size: 20px;
@@ -381,7 +379,9 @@ a:active
     text-align: center;
     font-size: 100px;
 }
-
+.index .icons {
+    padding: 70px;
+}
 /* Footer */
 footer {
     position: absolute;
@@ -447,18 +447,18 @@ footer {
     
     }
 
-    div #infoHeader {
+    /* div #infoHeader {
         font-size: 20px;
         padding-top: 400px;
     }
-    
-    div #info {
+     */
+    /* div #info {
         font-size: 15px;
         margin: 25px 75px;
     
         padding: 12px 20px;
         border-radius: 4px;
-    }
+    } */
 
     footer {
         display: none;
