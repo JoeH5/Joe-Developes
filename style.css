@@ -362,7 +362,7 @@ a:hover, a:focus
 {
     font-family: 'Roboto';
     text-rendering: optimizeLegibility;
-    color: rgba(255, 151, 151, 0.76);
+    color: rgb(175, 68, 68);
     opacity: 50%;
 }
 
@@ -382,18 +382,223 @@ a:active
 .index .icons {
     padding: 70px;
 }
-/* Footer */
-footer {
-    position: absolute;
-    font-style: 'Roboto';
-    font-weight: 300;
-    font-size: 15px;
-    bottom: -100%;
-    height: 20px;
-    color: white;
+
+/* Projects Page */
+
+nav header.currProjects {
+    top: -10px;
+    text-transform: uppercase;
+    font-family: 'Roboto';
+    background: none;
+    font-weight: 100;
+    font-size: 40px;
+    text-align: center;
+}
+
+#container {
+    width: 63%;
+    padding: 25px;
+    margin: auto;
+}
+
+#container img {
+    opacity: .6;
+    float: right;
+    transform-origin: 50% 50%;
+    height: 100%;
     width: 100%;
-    margin: 0px;
-    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#first {
+    width: 500px;
+    border-radius: 10px;
+    background-color: transparent;
+    float: left;
+    height: 300px;
+    border: 4px solid;
+    border-color: white;
+}
+
+#first #chatbot {
+    font-family: 'Roboto';
+    font-weight: 100;
+    font-size: 50px;
+    position: absolute;
+    padding-left: 130px;
+    padding-top: 60px;
+    transition: all 0.15s;
+}
+
+#first:hover {
+    transition: all .25s;
+    border-color: rgb(175, 68, 68);
+    color: rgb(175, 68, 68);
+}
+
+#first #aCB:hover {
+    transition: all .1s;
+    color: rgb(175, 68, 68);
+}
+
+
+#second {
+    width: 500px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.178);
+    margin-left: 15%;
+    float: right;
+    height: 300px;
+    border: solid;
+    
+}
+
+#container2 {
+    width: 63%;
+    padding-top: 400px;
+    margin: auto;
+}
+
+#third {
+    width: 500px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.178);
+    float: left;
+    height: 300px;
+    border: solid;
+    
+}
+
+#fourth {
+    width: 500px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.178);
+    margin-left: 15%;
+    float: right;
+    height: 300px;
+    border: solid;
+    
+}
+
+
+
+
+/* RESPONSIVENESS CODE */
+@media only screen and (min-width: 2560px)
+{
+    #container {
+        width: 75%;
+        padding-top: 50px;
+        margin: auto;
+        padding-left: 600px;
+
+    }
+
+    #container2 {
+        width: 75%;
+        padding-top: 300px;
+        margin: auto;
+        padding-left: 575px;
+
+    }
+
+    #first {
+        width: 500px;
+        border-radius: 25px;
+        background-color: rgba(0, 0, 0, 0.178);
+        float: left;
+        height: 300px;
+        border: solid;
+
+    }
+
+    #second {
+        width: 500px;
+        border-radius: 25px;
+        background-color: rgba(0, 0, 0, 0.178);
+        float: left;
+        height: 300px;
+        border: solid;
+
+    }
+
+    #third {
+        width: 500px;
+        border-radius: 25px;
+        background-color: rgba(0, 0, 0, 0.178);
+        float: left;
+        height: 300px;
+        border: solid;
+
+    }
+    
+    #fourth {
+        width: 500px;
+        border-radius: 25px;
+        background-color: rgba(0, 0, 0, 0.178);
+        float: left;
+        height: 300px;
+        border: solid;
+
+    }
+}
+
+@media only screen and (max-width: 1200px)
+{
+    #container {
+        width: 75%;
+        padding-top: 50px;
+        margin: auto;
+
+
+    }
+
+    #container2 {
+        width: 75%;
+        padding-top: 300px;
+        margin: auto;
+
+    }
+
+    #first {
+        width: 300px;
+        border-radius: 25px;
+        background-color: rgba(0, 0, 0, 0.178);
+        float: left;
+        height: 200px;
+        border: solid;
+
+    }
+
+    #second {
+        width: 300px;
+        border-radius: 25px;
+        background-color: rgba(0, 0, 0, 0.178);
+        float: left;
+        height: 200px;
+        border: solid;
+
+    }
+
+    #third {
+        width: 300px;
+        border-radius: 25px;
+        background-color: rgba(0, 0, 0, 0.178);
+        float: left;
+        height: 200px;
+        border: solid;
+
+    }
+    
+    #fourth {
+        width: 300px;
+        border-radius: 25px;
+        background-color: rgba(0, 0, 0, 0.178);
+        float: left;
+        height: 200px;
+        border: solid;
+
+    }
 }
 
 
@@ -480,4 +685,19 @@ footer {
     footer {
         font-size: 0;
     }
+}
+
+
+/* Footer */
+footer {
+    position: absolute;
+    font-style: 'Roboto';
+    font-weight: 300;
+    font-size: 15px;
+    bottom: -100%;
+    height: 20px;
+    color: white;
+    width: 100%;
+    margin: 0px;
+    padding: 5px 10px;
 }
